@@ -1,0 +1,13 @@
+{
+  "variables": [
+    {"id": "air_temperature", "name": "Near-surface air temperature", "short_name": "Air temperature",
+     "unit": "°C", "unit_long": "degrees Celsius", "kind": "continuous",
+     "observed_parameter": "NASA POWER T2M (Temperature at 2 Metres)",
+     "projection_parameter": "NEX-GDDP-CMIP6 tas (near-surface air temperature, converted K→°C)",
+     "reference_range": {"min": 15.0, "max": 35.0,
+        "rationale": "Fixed range spanning plausible annual-mean 2 m air temperatures for hot-arid cities from the late 20th century to high-warming end-of-century projections. Fixed so color and sound are comparable across years, scenarios and (future) locations. It is a presentation range, not a physical limit."},
+     "anomaly_range": {"min": -2.0, "max": 7.0}},
+    {"id": "sea_ice", "name": "Sea ice", "short_name": "Sea ice", "unit": null, "kind": "planned", "reference_range": null, "anomaly_range": null},
+    {"id": "vegetation", "name": "Vegetation", "short_name": "Vegetation", "unit": null, "kind": "planned", "reference_range": null, "anomaly_range": null}
+  ]
+}

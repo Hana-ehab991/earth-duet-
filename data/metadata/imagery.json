@@ -1,0 +1,24 @@
+{
+  "layers": [
+    {
+      "id": "modis_terra_truecolor",
+      "title": "MODIS Terra Corrected Reflectance (True Color)",
+      "gibs_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "projection": "epsg3857",
+      "tile_matrix_set": "GoogleMapsCompatible_Level9",
+      "format": "jpg",
+      "max_zoom": 9,
+      "tile_url_template": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/{date}/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg",
+      "temporal": "daily",
+      "documented_start_date": "2000-02-24",
+      "representative_month_day": "07-15",
+      "representative_date_rationale": "One fixed mid-summer day per year is used so year-to-year comparisons are made at the same season. Single-day imagery may contain cloud, swath gaps or missing tiles; it is a visual context, not a measurement.",
+      "attribution": "Imagery provided by NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS). Data: MODIS on NASA Terra.",
+      "docs_url": "https://nasa-gibs.github.io/gibs-api-docs/",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/",
+      "verified_in_build_environment": false,
+      "verification_note": "The start date and layer name are taken from public GIBS documentation. The build sandbox could not reach gibs.earthdata.nasa.gov, so tile availability per date was NOT verified here. The globe reports tile-load failures at runtime and falls back to the labelled base map."
+    }
+  ],
+  "resolution_note": "GIBS imagery (up to ~250 m per pixel for this layer, a single day) and numerical temperature products (POWER: ~0.5°×0.625° grid cell, annual mean; NEX-GDDP-CMIP6: 0.25° grid cell, multi-year window mean) differ in spatial and temporal resolution. Imagery is visual context and is not interchangeable with temperature data."
+}

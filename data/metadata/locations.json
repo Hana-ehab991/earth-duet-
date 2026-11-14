@@ -1,0 +1,30 @@
+{
+  "locations": [
+    {
+      "id": "cairo", "name": "Cairo", "country": "Egypt",
+      "latitude": 30.0444, "longitude": 31.2357, "default_zoom_meters": 800000,
+      "primary_variable": "air_temperature", "status": "primary_mvp",
+      "analysis_geometry": {"type": "point", "latitude": 30.0444, "longitude": 31.2357,
+        "note": "Point extraction at Cairo city centre; each product returns the value of the grid cell containing this point, so spatial support equals the product's native grid cell."}
+    },
+    {
+      "id": "aswan", "name": "Aswan", "country": "Egypt",
+      "latitude": 24.0889, "longitude": 32.8998, "default_zoom_meters": 800000,
+      "primary_variable": "air_temperature", "status": "primary_mvp",
+      "analysis_geometry": {"type": "point", "latitude": 24.0889, "longitude": 32.8998,
+        "note": "Point extraction at Aswan city centre; each product returns the value of the grid cell containing this point, so spatial support equals the product's native grid cell."}
+    },
+    {
+      "id": "greenland", "name": "Greenland", "country": null,
+      "latitude": 72.0, "longitude": -40.0, "default_zoom_meters": 2500000,
+      "primary_variable": "sea_ice", "status": "planned",
+      "analysis_geometry": {"type": "region_to_be_defined", "note": "Region not yet defined. No dataset configured."}
+    },
+    {
+      "id": "amazon", "name": "Amazon Rainforest", "country": null,
+      "latitude": -3.4653, "longitude": -62.2159, "default_zoom_meters": 2200000,
+      "primary_variable": "vegetation", "status": "planned",
+      "analysis_geometry": {"type": "region_to_be_defined", "note": "Region not yet defined. No dataset configured."}
+    }
+  ]
+}

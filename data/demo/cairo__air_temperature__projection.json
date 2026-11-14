@@ -1,0 +1,384 @@
+{
+ "schema_version": "1.0",
+ "dataset_id": "synthetic_demo_projection",
+ "location_id": "cairo",
+ "variable_id": "air_temperature",
+ "record_type": "synthetic_demo",
+ "is_demo": true,
+ "unit": "°C",
+ "source": {
+  "name": "SYNTHETIC DEMONSTRATION DATA — NOT NASA MEASUREMENTS OR MODEL OUTPUT",
+  "url": "about:blank",
+  "product": "synthetic generator",
+  "parameter": "synthetic",
+  "citation_note": null,
+  "extra": {}
+ },
+ "geometry": {
+  "type": "point",
+  "latitude": 30.0444,
+  "longitude": 31.2357,
+  "support_bbox": [
+   31.0,
+   30.0,
+   31.25,
+   30.25
+  ],
+  "spatial_support": "Synthetic."
+ },
+ "processing": {
+  "method": "Hand-set illustrative increments; NOT climate model output.",
+  "missing_value_handling": null,
+  "retrieved_at": null,
+  "request": null,
+  "extra": {}
+ },
+ "baseline": {
+  "period": [
+   1995,
+   2014
+  ],
+  "mean": 21.9,
+  "description": "Synthetic."
+ },
+ "models": [
+  {
+   "id": "DEMO-MODEL-A",
+   "variant": null,
+   "note": "synthetic"
+  },
+  {
+   "id": "DEMO-MODEL-B",
+   "variant": null,
+   "note": "synthetic"
+  },
+  {
+   "id": "DEMO-MODEL-C",
+   "variant": null,
+   "note": "synthetic"
+  }
+ ],
+ "scenarios": [
+  "ssp245",
+  "ssp585"
+ ],
+ "windows": [
+  {
+   "target_year": 2030,
+   "start_year": 2020,
+   "end_year": 2039,
+   "clipped": false
+  },
+  {
+   "target_year": 2050,
+   "start_year": 2040,
+   "end_year": 2059,
+   "clipped": false
+  },
+  {
+   "target_year": 2075,
+   "start_year": 2065,
+   "end_year": 2084,
+   "clipped": false
+  },
+  {
+   "target_year": 2100,
+   "start_year": 2090,
+   "end_year": 2100,
+   "clipped": true
+  }
+ ],
+ "records": [
+  {
+   "scenario": "ssp245",
+   "target_year": 2030,
+   "model": "DEMO-MODEL-A",
+   "value": 22.545,
+   "baseline": 21.78,
+   "anomaly": 0.765
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2030,
+   "model": "DEMO-MODEL-B",
+   "value": 22.8,
+   "baseline": 21.9,
+   "anomaly": 0.9
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2030,
+   "model": "DEMO-MODEL-C",
+   "value": 23.0975,
+   "baseline": 22.04,
+   "anomaly": 1.0575
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2050,
+   "model": "DEMO-MODEL-A",
+   "value": 23.14,
+   "baseline": 21.78,
+   "anomaly": 1.36
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2050,
+   "model": "DEMO-MODEL-B",
+   "value": 23.5,
+   "baseline": 21.9,
+   "anomaly": 1.6
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2050,
+   "model": "DEMO-MODEL-C",
+   "value": 23.92,
+   "baseline": 22.04,
+   "anomaly": 1.88
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2075,
+   "model": "DEMO-MODEL-A",
+   "value": 23.565,
+   "baseline": 21.78,
+   "anomaly": 1.785
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2075,
+   "model": "DEMO-MODEL-B",
+   "value": 24.0,
+   "baseline": 21.9,
+   "anomaly": 2.1
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2075,
+   "model": "DEMO-MODEL-C",
+   "value": 24.5075,
+   "baseline": 22.04,
+   "anomaly": 2.4675
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2100,
+   "model": "DEMO-MODEL-A",
+   "value": 23.82,
+   "baseline": 21.78,
+   "anomaly": 2.04
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2100,
+   "model": "DEMO-MODEL-B",
+   "value": 24.3,
+   "baseline": 21.9,
+   "anomaly": 2.4
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2100,
+   "model": "DEMO-MODEL-C",
+   "value": 24.86,
+   "baseline": 22.04,
+   "anomaly": 2.82
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2030,
+   "model": "DEMO-MODEL-A",
+   "value": 22.63,
+   "baseline": 21.78,
+   "anomaly": 0.85
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2030,
+   "model": "DEMO-MODEL-B",
+   "value": 22.9,
+   "baseline": 21.9,
+   "anomaly": 1.0
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2030,
+   "model": "DEMO-MODEL-C",
+   "value": 23.215,
+   "baseline": 22.04,
+   "anomaly": 1.175
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2050,
+   "model": "DEMO-MODEL-A",
+   "value": 23.65,
+   "baseline": 21.78,
+   "anomaly": 1.87
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2050,
+   "model": "DEMO-MODEL-B",
+   "value": 24.1,
+   "baseline": 21.9,
+   "anomaly": 2.2
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2050,
+   "model": "DEMO-MODEL-C",
+   "value": 24.625,
+   "baseline": 22.04,
+   "anomaly": 2.585
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2075,
+   "model": "DEMO-MODEL-A",
+   "value": 24.84,
+   "baseline": 21.78,
+   "anomaly": 3.06
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2075,
+   "model": "DEMO-MODEL-B",
+   "value": 25.5,
+   "baseline": 21.9,
+   "anomaly": 3.6
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2075,
+   "model": "DEMO-MODEL-C",
+   "value": 26.27,
+   "baseline": 22.04,
+   "anomaly": 4.23
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2100,
+   "model": "DEMO-MODEL-A",
+   "value": 25.86,
+   "baseline": 21.78,
+   "anomaly": 4.08
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2100,
+   "model": "DEMO-MODEL-B",
+   "value": 26.7,
+   "baseline": 21.9,
+   "anomaly": 4.8
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2100,
+   "model": "DEMO-MODEL-C",
+   "value": 27.68,
+   "baseline": 22.04,
+   "anomaly": 5.64
+  }
+ ],
+ "ensemble": [
+  {
+   "scenario": "ssp245",
+   "target_year": 2030,
+   "n_models": 3,
+   "mean": 22.8142,
+   "min": 22.545,
+   "max": 23.0975,
+   "std": 0.2765,
+   "anomaly_mean": 0.9075,
+   "anomaly_min": 0.765,
+   "anomaly_max": 1.0575
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2050,
+   "n_models": 3,
+   "mean": 23.52,
+   "min": 23.14,
+   "max": 23.92,
+   "std": 0.3904,
+   "anomaly_mean": 1.6133,
+   "anomaly_min": 1.36,
+   "anomaly_max": 1.88
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2075,
+   "n_models": 3,
+   "mean": 24.0242,
+   "min": 23.565,
+   "max": 24.5075,
+   "std": 0.4717,
+   "anomaly_mean": 2.1175,
+   "anomaly_min": 1.785,
+   "anomaly_max": 2.4675
+  },
+  {
+   "scenario": "ssp245",
+   "target_year": 2100,
+   "n_models": 3,
+   "mean": 24.3267,
+   "min": 23.82,
+   "max": 24.86,
+   "std": 0.5205,
+   "anomaly_mean": 2.42,
+   "anomaly_min": 2.04,
+   "anomaly_max": 2.82
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2030,
+   "n_models": 3,
+   "mean": 22.915,
+   "min": 22.63,
+   "max": 23.215,
+   "std": 0.2928,
+   "anomaly_mean": 1.0083,
+   "anomaly_min": 0.85,
+   "anomaly_max": 1.175
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2050,
+   "n_models": 3,
+   "mean": 24.125,
+   "min": 23.65,
+   "max": 24.625,
+   "std": 0.488,
+   "anomaly_mean": 2.2183,
+   "anomaly_min": 1.87,
+   "anomaly_max": 2.585
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2075,
+   "n_models": 3,
+   "mean": 25.5367,
+   "min": 24.84,
+   "max": 26.27,
+   "std": 0.7157,
+   "anomaly_mean": 3.63,
+   "anomaly_min": 3.06,
+   "anomaly_max": 4.23
+  },
+  {
+   "scenario": "ssp585",
+   "target_year": 2100,
+   "n_models": 3,
+   "mean": 26.7467,
+   "min": 25.86,
+   "max": 27.68,
+   "std": 0.9109,
+   "anomaly_mean": 4.84,
+   "anomaly_min": 4.08,
+   "anomaly_max": 5.64
+  }
+ ],
+ "uncertainty_note": "Synthetic spread; meaningless scientifically."
+}

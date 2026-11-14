@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"id": "ssp245", "label": "SSP2-4.5", "description": "Intermediate greenhouse-gas emissions pathway (CMIP6 ScenarioMIP, SSP2 socioeconomics with ~4.5 W/m² forcing by 2100).", "nex_gddp_id": "ssp245"},
+    {"id": "ssp585", "label": "SSP5-8.5", "description": "Very high greenhouse-gas emissions pathway (CMIP6 ScenarioMIP, SSP5 socioeconomics with ~8.5 W/m² forcing by 2100).", "nex_gddp_id": "ssp585"}
+  ],
+  "disclaimer": "Scenarios are conditional climate projections: they describe what models simulate IF a given emissions pathway is followed. They are not predictions or guaranteed outcomes."
+}

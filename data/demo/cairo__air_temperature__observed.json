@@ -1,0 +1,366 @@
+{
+ "schema_version": "1.0",
+ "dataset_id": "synthetic_demo_observed",
+ "location_id": "cairo",
+ "variable_id": "air_temperature",
+ "record_type": "synthetic_demo",
+ "is_demo": true,
+ "unit": "°C",
+ "source": {
+  "name": "SYNTHETIC DEMONSTRATION DATA — NOT NASA MEASUREMENTS OR MODEL OUTPUT",
+  "url": "about:blank",
+  "product": "synthetic generator scripts/generate_demo_data.py",
+  "parameter": "synthetic",
+  "citation_note": "Not a scientific dataset.",
+  "extra": {}
+ },
+ "geometry": {
+  "type": "point",
+  "latitude": 30.0444,
+  "longitude": 31.2357,
+  "support_bbox": [
+   30.9375,
+   29.75,
+   31.5625,
+   30.25
+  ],
+  "spatial_support": "Synthetic; no real spatial support."
+ },
+ "processing": {
+  "method": "Seeded linear trend + Gaussian noise (seed 20261112). Illustrative only.",
+  "missing_value_handling": null,
+  "retrieved_at": null,
+  "request": null,
+  "extra": {}
+ },
+ "baseline": {
+  "period": [
+   1995,
+   2014
+  ],
+  "mean": 22.256,
+  "description": "Synthetic baseline."
+ },
+ "coverage": {
+  "first_year": 1981,
+  "last_complete_year": 2025,
+  "temporal_resolution": "annual (synthetic)"
+ },
+ "records": [
+  {
+   "year": 1981,
+   "value": 21.911,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1982,
+   "value": 21.133,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1983,
+   "value": 21.52,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1984,
+   "value": 21.193,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1985,
+   "value": 21.093,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1986,
+   "value": 22.051,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1987,
+   "value": 21.575,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1988,
+   "value": 21.696,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1989,
+   "value": 22.03,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1990,
+   "value": 22.225,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1991,
+   "value": 21.889,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1992,
+   "value": 22.044,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1993,
+   "value": 21.764,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1994,
+   "value": 21.94,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1995,
+   "value": 22.056,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1996,
+   "value": 22.144,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1997,
+   "value": 22.045,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1998,
+   "value": 21.994,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 1999,
+   "value": 21.647,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2000,
+   "value": 22.019,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2001,
+   "value": 22.019,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2002,
+   "value": 22.088,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2003,
+   "value": 22.633,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2004,
+   "value": 22.109,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2005,
+   "value": 22.727,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2006,
+   "value": 21.951,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2007,
+   "value": 22.736,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2008,
+   "value": 22.048,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2009,
+   "value": 22.312,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2010,
+   "value": 22.468,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2011,
+   "value": 22.676,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2012,
+   "value": 22.497,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2013,
+   "value": 22.456,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2014,
+   "value": 22.491,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2015,
+   "value": 22.513,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2016,
+   "value": 22.693,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2017,
+   "value": 22.593,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2018,
+   "value": 22.65,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2019,
+   "value": 22.666,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2020,
+   "value": 22.503,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2021,
+   "value": 22.968,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2022,
+   "value": 22.901,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2023,
+   "value": 22.959,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2024,
+   "value": 22.85,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  },
+  {
+   "year": 2025,
+   "value": 22.91,
+   "complete": true,
+   "n_months": 12,
+   "reason": null
+  }
+ ]
+}
